@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooLab.Tests", "tests\ZooLab.Tests\ZooLab.Tests.csproj", "{CEE5C6EA-3A05-49F7-BEC0-4408336B7641}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{87BAF7FF-E67C-4226-80EC-411A0A146BAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1831802C-3466-4517-9F02-F764D031FB5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooLab", "src\ZooLab\ZooLab.csproj", "{A5A06A5F-9CED-4BF1-BDA1-255221BBB2E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE5C6EA-3A05-49F7-BEC0-4408336B7641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE5C6EA-3A05-49F7-BEC0-4408336B7641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE5C6EA-3A05-49F7-BEC0-4408336B7641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE5C6EA-3A05-49F7-BEC0-4408336B7641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A06A5F-9CED-4BF1-BDA1-255221BBB2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A06A5F-9CED-4BF1-BDA1-255221BBB2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A06A5F-9CED-4BF1-BDA1-255221BBB2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A06A5F-9CED-4BF1-BDA1-255221BBB2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEE5C6EA-3A05-49F7-BEC0-4408336B7641} = {87BAF7FF-E67C-4226-80EC-411A0A146BAB}
+		{A5A06A5F-9CED-4BF1-BDA1-255221BBB2E7} = {1831802C-3466-4517-9F02-F764D031FB5F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16D68E18-5497-4AEF-959B-650AFFA32996}
+	EndGlobalSection
+EndGlobal
